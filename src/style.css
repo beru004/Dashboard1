@@ -1,0 +1,17 @@
+.list-group a:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+/* style.css */
+
+.Layout {
+    /* Adjust positioning if necessary */
+    position: relative; /* Change this to 'absolute' or 'relative' if needed */
+    z-index: 1; /* Ensure the sidebar is above the background but below the main content */
+}
+
+.main-content {
+    /* Add padding to the left to accommodate the sidebar */
+    padding-left: 250px; /* Adjust this value based on the width of your sidebar */
+}
